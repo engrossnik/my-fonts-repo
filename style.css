@@ -1,28 +1,11 @@
 @font-face {
     font-family: 'Shlop';
-    src: url('./fonts/shlop.otf') format('otf');
+    src: url('./fonts/shlop.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-  }
-  
-  /* @font-face {
-    font-family: 'Font2';
-    src: url('https://yourusername.github.io/my-multiple-fonts-repo/fonts/font2.woff2') format('woff2'),
-         url('https://yourusername.github.io/my-multiple-fonts-repo/fonts/font2.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  } */
-  
-  body {
-    font-family: 'Shlop', sans-serif; /* Default font */
-  }
-  
-  /* Example usage of multiple fonts */
-  .h1-font {
-    font-family: 'Shlop', sans-serif;
-  }
-  
-  /* .h2-font {
-    font-family: 'Font2', sans-serif;
-  } */
-  
+}
+
+/* Example usage */
+body {
+    font-family: 'Shlop';
+}
